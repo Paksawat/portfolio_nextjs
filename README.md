@@ -3,6 +3,8 @@
 Projects shown in this portfolio is placeholders.
 Build with React/Next js (App Router & server actions), Typescript, Tailwind CSS & Framer motion
 
+Watch live: https://celebrated-pithivier-07b9b2.netlify.app/
+
 _________________________________________________________________________________________________________
 
 
