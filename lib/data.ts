@@ -1,4 +1,4 @@
-import corpcommentImg from "@/public/corpcomment.png";
+import hoobank from "@/public/hoobank.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -27,28 +27,26 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Hoobank website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Learning React i made this responsive and modern landing page for a fictional financial service",
+    tags: ["React", "Tailwind"],
+    imageUrl: hoobank,
     githubUrl: "https://github.com/PaksawatDev?tab=repositories",
   },
   {
     title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    description: "Placeholder - project in the works!",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
-    githubUrl: "https://github.com/PaksawatDev/astro-components",
+    githubUrl: "https://github.com/Paksawat?tab=repositories",
   },
   {
     title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    description: "Placeholder - project in the works!",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
-    githubUrl: "https://github.com/PaksawatDev?tab=repositories",
+    githubUrl: "https://github.com/Paksawat?tab=repositories",
   },
 ] as const;
 

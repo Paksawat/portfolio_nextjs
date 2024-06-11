@@ -84,14 +84,14 @@ export default function Intro() {
         <a
           target="_blank"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-110  active:scale-105 transition dark:bg-gray-700 dark:text-white"
-          href="https://github.com/PaksawatDev?tab=repositories"
+          href="https://www.linkedin.com/in/david-paksawat-5698a5b9/"
         >
           <BsLinkedin />
         </a>
         <a
           target="_blank"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-110  active:scale-105 transition dark:bg-gray-700 dark:text-white"
-          href="https://www.linkedin.com/in/david-paksawat-5698a5b9/"
+          href="https://github.com/Paksawat?tab=repositories"
         >
           <BsGithub />
         </a>
