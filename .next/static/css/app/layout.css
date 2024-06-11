@@ -577,6 +577,9 @@ video {
 .mt-\[1rem\] {
   margin-top: 1rem;
 }
+.mr-2 {
+  margin-right: 0.5rem;
+}
 .flex {
   display: flex;
 }
@@ -653,6 +656,9 @@ video {
 }
 .scroll-mt-\[100rem\] {
   scroll-margin-top: 100rem;
+}
+.flex-row {
+  flex-direction: row;
 }
 .flex-col {
   flex-direction: column;

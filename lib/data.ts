@@ -33,6 +33,7 @@ export const projectsData = [
     tags: ["React", "Tailwind"],
     imageUrl: hoobank,
     githubUrl: "https://github.com/Paksawat/react_modern_website",
+    liveUrl: "https://react-modern-website-seven.vercel.app/",
   },
   {
     title: "rmtDev",
@@ -40,6 +41,7 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
     githubUrl: "https://github.com/Paksawat?tab=repositories",
+    liveUrl: "",
   },
   {
     title: "Word Analytics",
@@ -47,6 +49,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
     githubUrl: "https://github.com/Paksawat?tab=repositories",
+    liveUrl: "",
   },
 ] as const;
 

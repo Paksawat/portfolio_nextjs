@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsGlobe } from "react-icons/bs";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -14,6 +14,7 @@ export default function Project({
   tags,
   imageUrl,
   githubUrl,
+  liveUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -48,13 +49,22 @@ export default function Project({
               </li>
             ))}
           </ul>
-          <a
-            target="_blank"
-            className="bg-white p-3 text-gray-700 flex rounded-full w-fit mt-[1rem] hover:scale-[1.10]  active:scale-105 transition dark:bg-gray-700 dark:text-white"
-            href={githubUrl}
-          >
-            <BsGithub />
-          </a>
+          <div className="flex flex-row">
+            <a
+              target="_blank"
+              className="bg-white p-3 text-gray-700 flex rounded-full w-fit mt-[1rem] hover:scale-[1.10] mr-2  active:scale-105 transition dark:bg-gray-700 dark:text-white"
+              href={githubUrl}
+            >
+              <BsGithub />
+            </a>
+            <a
+              target="_blank"
+              className="bg-white p-3 text-gray-700 flex rounded-full w-fit mt-[1rem] hover:scale-[1.10]  active:scale-105 transition dark:bg-gray-700 dark:text-white"
+              href={liveUrl}
+            >
+              <BsGlobe />
+            </a>
+          </div>
         </div>
 
         <Image
