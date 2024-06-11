@@ -32,7 +32,7 @@ export const projectsData = [
       "Learning React i made this responsive and modern landing page for a fictional financial service",
     tags: ["React", "Tailwind"],
     imageUrl: hoobank,
-    githubUrl: "https://github.com/PaksawatDev?tab=repositories",
+    githubUrl: "https://github.com/Paksawat/react_modern_website",
   },
   {
     title: "rmtDev",
