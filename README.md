@@ -1,3 +1,13 @@
+*My portfolio WIP
+
+Projects shown in this portfolio is placeholders.
+Build with React/Next js (App Router & server actions), Typescript, Tailwind CSS & Framer motion
+
+Watch live: https://celebrated-pithivier-07b9b2.netlify.app/
+
+_________________________________________________________________________________________________________
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
