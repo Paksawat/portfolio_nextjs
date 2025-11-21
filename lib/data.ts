@@ -1,6 +1,7 @@
 import hoobank from "@/public/hoobank.png";
 import vitempo from "@/public/vitempo.png";
 import dashboard from "@/public/dashboard_react.png";
+import app from "@/public/flutter_app.png";
 
 export const links = [
   {
@@ -50,6 +51,14 @@ export const projectsData = [
     imageUrl: dashboard,
     githubUrl: "https://github.com/Paksawat/react_dashboard",
     liveUrl: "https://react-dashboard-alpha-nine.vercel.app/overview",
+  },
+  {
+    title: "Flutter App - Coming soon",
+    description: "WIP - A dice roller app made in Flutter. Was a request from a friend",
+    tags: ["Flutter", "Dart",],
+    imageUrl: app,
+    githubUrl: "",
+    liveUrl: "",
   },
 ] as const;
 
