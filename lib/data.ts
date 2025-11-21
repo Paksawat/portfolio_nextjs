@@ -49,7 +49,7 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Tailwind", "Auth0", "RTK Query", "Redux", "charts"],
     imageUrl: dashboard,
     githubUrl: "https://github.com/Paksawat/react_dashboard",
-    liveUrl: "https://react-dashboard-alpha-nine.vercel.app/overview",
+    liveUrl: "https://react-dashboard-qg8lowus1-davids-projects-50fc449d.vercel.app/overview",
   },
 ] as const;
 
