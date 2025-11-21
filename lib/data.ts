@@ -50,7 +50,7 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Tailwind", "Auth0", "RTK Query", "Redux", "charts"],
     imageUrl: dashboard,
     githubUrl: "https://github.com/Paksawat/react_dashboard",
-    liveUrl: "https://react-dashboard-alpha-nine.vercel.app/overview",
+    liveUrl: "https://react-dashboard-alpha-nine.vercel.app/",
   },
   {
     title: "Flutter App - Coming soon",
