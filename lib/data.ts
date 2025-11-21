@@ -1,6 +1,6 @@
 import hoobank from "@/public/hoobank.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import vitempo from "@/public/vitempo.png";
+import dashboard from "@/public/dashboard_react.png";
 
 export const links = [
   {
@@ -36,20 +36,20 @@ export const projectsData = [
     liveUrl: "https://react-modern-website-seven.vercel.app/",
   },
   {
-    title: "rmtDev",
-    description: "Placeholder - project in the works!",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-    githubUrl: "https://github.com/Paksawat?tab=repositories",
-    liveUrl: "",
+    title: "Time management PWA",
+    description: "Focusing on Pomodoro Technique with task management. Future implementation of other time management techniques.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: vitempo,
+    githubUrl: "https://github.com/Paksawat/vitempo",
+    liveUrl: "https://vitempo.vercel.app/",
   },
   {
-    title: "Word Analytics",
-    description: "Placeholder - project in the works!",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-    githubUrl: "https://github.com/Paksawat?tab=repositories",
-    liveUrl: "",
+    title: "Management dashboard based on previous work",
+    description: "Dashboard for management keeping track of employees mental health based on objective and subjective data",
+    tags: ["React", "TypeScript", "Tailwind", "Auth0", "RTK Query", "Redux", "charts"],
+    imageUrl: dashboard,
+    githubUrl: "https://github.com/Paksawat/react_dashboard",
+    liveUrl: "https://react-dashboard-alpha-nine.vercel.app/overview",
   },
 ] as const;
 
